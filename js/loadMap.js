@@ -30,7 +30,7 @@ $(".copy-btn").on('click', function(evt){
 	
 function initializeMap() {
 			var placeholderDiv = document.getElementById("tableauViz");
-			var url = "https://public.tableau.com/views/AskCHISNE2_0-dev/Map";
+			var url = "https://public.tableau.com/views/AskCHISNE2_0/Map";
 			var options = {
 				//width: placeholderDiv.offsetWidth,
 				//height: placeholderDiv.offsetHeight,
@@ -49,7 +49,7 @@ function initializeMap() {
 
 		function initializeTable() {
 			var placeholderDiv = document.getElementById("tableauViz");
-			var url = "https://public.tableau.com/views/AskCHISNE2_0-dev/DataTable";
+			var url = "https://public.tableau.com/views/AskCHISNE2_0/DataTable";
 			var options = {
 				//width: placeholderDiv.offsetWidth,
 				//height: placeholderDiv.offsetHeight,
